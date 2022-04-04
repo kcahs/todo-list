@@ -6,7 +6,7 @@ import TodoList from "./components/TodoList";
 import mockData from "./data/mockData";
 
 function App() {
-  const [data, setData] = useState(mockData);
+  const [data, setData] = useState(() => mockData);
 
   return (
     <Container style={{ marginTop: "3rem", maxWidth: "800px" }}>
