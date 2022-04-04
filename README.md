@@ -37,15 +37,16 @@ Run 'npm start' to start the app.
 ### 3) Add functionality
 
 - Use the Form-Component to add new Tasks to the Todo-List
+  - https://dev.to/joelynn/react-hooks-working-with-state-arrays-2n2g
 - Add onClick-functionality to the buttons to check/uncheck tasks as completed
 - **Bonus**: Add functionality to delete tasks from the list.
 
 ### 4) Bonus Tasks
 
 - Use the localStorage, that the data is stored and usable after reload
+  - https://blog.logrocket.com/using-localstorage-react-hooks/
 - Add a warning (window.confirm) before a task can be deleted
 - Add a dueDate field in the form and display the dueDate in the List
 - Add a completedAt field in the Object and display it in the list
 - Add categories
 - Add a filter
-  
