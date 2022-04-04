@@ -37,6 +37,7 @@ Run 'npm start' to start the app.
 ### 3) Add functionality
 
 - Use the Form-Component to add new Tasks to the Todo-List
+  - https://www.w3schools.com/react/react_forms.asp
   - https://dev.to/joelynn/react-hooks-working-with-state-arrays-2n2g
 - Add onClick-functionality to the buttons to check/uncheck tasks as completed
 - **Bonus**: Add functionality to delete tasks from the list.
