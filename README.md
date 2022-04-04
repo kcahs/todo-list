@@ -1,70 +1,51 @@
 # ToDo App Exercise
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Use the following example and complete the following steps.
 
-## Available Scripts
+## Clone the repository
 
-In the project directory, you can run:
+Use the GitHub-Link and clone the repository to your local device.
 
-### `npm start`
+## Install Dependencies and Start the App
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### npm install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Run 'npm install' to install all the dependencies.
 
-### `npm test`
+### npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Run 'npm start' to start the app.
 
-### `npm run build`
+## Tasks
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1) Replace the staticly created data with code using the mockData
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Pass the data to the right components
+- Destructure the props Object to use the data in these components
+- Loop through the array and display the data
+  - Make sure to visualize important tasks (❗)
+  - Make sure to visualize completed tasks (✔)
+  - **Bonus**: Split the list into two different lists for open and completed tasks as seen in the static example
+  - **Bonus**: Show important tasks first in the list
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2) Seperate Components for every Task
 
-### `npm run eject`
+- Create a new component "Task"
+- Pass the needed props to the Task-Component
+- Replace the Code in the TodoList-Component with the Task-Component
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 3) Add functionality
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Use the Form-Component to add new Tasks to the Todo-List
+- Add onClick-functionality to the buttons to check/uncheck tasks as completed
+- **Bonus**: Add functionality to delete tasks from the list.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 4) Bonus Tasks
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Use the localStorage, that the data is stored and usable after reload
+- Add a warning (window.confirm) before a task can be deleted
+- Add a dueDate field in the form and display the dueDate in the List
+- Add a completedAt field in the Object and display it in the list
+- Add categories
+- Add a filter
+  
